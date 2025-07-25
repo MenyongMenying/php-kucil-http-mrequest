@@ -1,0 +1,227 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "be03a04578d19ce6ae28dbdf7286c749",
+    "packages": [
+        {
+            "name": "menyong-menying/kucil-systems-file",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MenyongMenying/php-kucil-systems-file.git",
+                "reference": "9fea47e39b5b7a0475c50719239703c84b19502b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MenyongMenying/php-kucil-systems-file/zipball/9fea47e39b5b7a0475c50719239703c84b19502b",
+                "reference": "9fea47e39b5b7a0475c50719239703c84b19502b",
+                "shasum": ""
+            },
+            "type": "plugin",
+            "autoload": {
+                "psr-4": {
+                    "MenyongMenying\\MLibrary\\Kucil\\Systems\\File\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "MenyongMenying",
+                    "email": "menyongmenying.main@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/MenyongMenying/php-kucil-systems-file/issues",
+                "source": "https://github.com/MenyongMenying/php-kucil-systems-file/tree/v0.0.1"
+            },
+            "time": "2025-07-25T09:23:17+00:00"
+        },
+        {
+            "name": "menyong-menying/kucil-utilities-data",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MenyongMenying/php-kucil-utilities-data.git",
+                "reference": "d74bd88ee0e38bb313ebcf9ea99093bba329750d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MenyongMenying/php-kucil-utilities-data/zipball/d74bd88ee0e38bb313ebcf9ea99093bba329750d",
+                "reference": "d74bd88ee0e38bb313ebcf9ea99093bba329750d",
+                "shasum": ""
+            },
+            "type": "plugin",
+            "autoload": {
+                "psr-4": {
+                    "MenyongMenying\\MLibrary\\Kucil\\Utilities\\Data\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "MenyongMenying",
+                    "email": "menyongmenying.main@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/MenyongMenying/php-kucil-utilities-data/issues",
+                "source": "https://github.com/MenyongMenying/php-kucil-utilities-data/tree/v0.0.1"
+            },
+            "time": "2025-07-25T07:11:18+00:00"
+        },
+        {
+            "name": "menyong-menying/kucil-utilities-json",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MenyongMenying/php-kucil-utilities-json.git",
+                "reference": "e895c7a8fd29188a0949a0e429c665776c141ce1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MenyongMenying/php-kucil-utilities-json/zipball/e895c7a8fd29188a0949a0e429c665776c141ce1",
+                "reference": "e895c7a8fd29188a0949a0e429c665776c141ce1",
+                "shasum": ""
+            },
+            "require": {
+                "menyong-menying/kucil-utilities-mobject": "v0.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MenyongMenying\\MLibrary\\Kucil\\Utilities\\Json\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "MenyongMenying",
+                    "email": "menyongmenying.main@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/MenyongMenying/php-kucil-utilities-json/issues",
+                "source": "https://github.com/MenyongMenying/php-kucil-utilities-json/tree/v0.0.1"
+            },
+            "time": "2025-07-25T07:44:42+00:00"
+        },
+        {
+            "name": "menyong-menying/kucil-utilities-marray",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MenyongMenying/php-kucil-utilities-marray.git",
+                "reference": "f372d841b7084a5d751847c50bff1a6acc4d1b61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MenyongMenying/php-kucil-utilities-marray/zipball/f372d841b7084a5d751847c50bff1a6acc4d1b61",
+                "reference": "f372d841b7084a5d751847c50bff1a6acc4d1b61",
+                "shasum": ""
+            },
+            "require": {
+                "menyong-menying/kucil-utilities-data": "v0.0.1"
+            },
+            "type": "plugin",
+            "autoload": {
+                "psr-4": {
+                    "MenyongMenying\\MLibrary\\Kucil\\Utilities\\MArray\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "MenyongMenying",
+                    "email": "menyongmenying.main@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/MenyongMenying/php-kucil-utilities-marray/issues",
+                "source": "https://github.com/MenyongMenying/php-kucil-utilities-marray/tree/v0.0.1"
+            },
+            "time": "2025-07-25T07:14:47+00:00"
+        },
+        {
+            "name": "menyong-menying/kucil-utilities-mobject",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MenyongMenying/php-kucil-utilities-mobject.git",
+                "reference": "000820c3f71fd51e5e3a9f863e9b94f9d631e89a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MenyongMenying/php-kucil-utilities-mobject/zipball/000820c3f71fd51e5e3a9f863e9b94f9d631e89a",
+                "reference": "000820c3f71fd51e5e3a9f863e9b94f9d631e89a",
+                "shasum": ""
+            },
+            "require": {
+                "menyong-menying/kucil-utilities-data": "v0.0.1",
+                "menyong-menying/kucil-utilities-marray": "v0.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MenyongMenying\\MLibrary\\Kucil\\Utilities\\MObject\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "MenyongMenying",
+                    "email": "menyongmenying.main@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/MenyongMenying/php-kucil-utilities-mobject/issues",
+                "source": "https://github.com/MenyongMenying/php-kucil-utilities-mobject/tree/v0.0.1"
+            },
+            "time": "2025-07-25T07:27:29+00:00"
+        },
+        {
+            "name": "menyong-menying/kucil-utilities-mstring",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MenyongMenying/php-kucil-utilities-mstring.git",
+                "reference": "2be896d7243f1cfeb26972814e0389fdc9ab9c4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MenyongMenying/php-kucil-utilities-mstring/zipball/2be896d7243f1cfeb26972814e0389fdc9ab9c4d",
+                "reference": "2be896d7243f1cfeb26972814e0389fdc9ab9c4d",
+                "shasum": ""
+            },
+            "type": "plugin",
+            "autoload": {
+                "psr-4": {
+                    "MenyongMenying\\MLibrary\\Kucil\\Utilities\\MString\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "MenyongMenying",
+                    "email": "menyongmenying.main@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/MenyongMenying/php-kucil-utilities-mstring/issues",
+                "source": "https://github.com/MenyongMenying/php-kucil-utilities-mstring/tree/v0.0.1"
+            },
+            "time": "2025-07-25T06:17:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
