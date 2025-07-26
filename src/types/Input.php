@@ -1,6 +1,6 @@
 <?php
 
-namespace MenyongMenying\MLibrary\Kucil\Http\Request\Bases;
+namespace MenyongMenying\MLibrary\Kucil\Http\Request\Types;
 
 use MenyongMenying\MLibrary\Kucil\Utilities\MObject\MObject;
 use MenyongMenying\MLibrary\Kucil\Utilities\Data\Data;
@@ -10,7 +10,7 @@ use MenyongMenying\MLibrary\Kucil\Utilities\Data\Data;
  * @version 0.0.1
  * @date 2025-07-30
  */
-abstract class BaseInput
+abstract class Input
 {
     /**
      * Data input request.

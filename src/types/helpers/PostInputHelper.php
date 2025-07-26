@@ -1,6 +1,6 @@
 <?php
 
-namespace MenyongMenying\MLibrary\Kucil\Http\Request\Traits\Types;
+namespace MenyongMenying\MLibrary\Kucil\Http\Request\Types\Helpers;
 
 /**
  * @author MenyongMenying <menyongmenying.main@email.com>

@@ -2,10 +2,10 @@
 
 namespace MenyongMenying\MLibrary\Kucil\Http\Request\Types;
 
-use MenyongMenying\MLibrary\Kucil\Http\Request\Bases\BaseInput;
-use MenyongMenying\MLibrary\Kucil\Http\Request\Configs\Types\JsonInputConfig;
-use MenyongMenying\MLibrary\Kucil\Http\Request\Contracts\InputInterface;
-use MenyongMenying\MLibrary\Kucil\Http\Request\Traits\Types\JsonInputHelper;
+use MenyongMenying\MLibrary\Kucil\Http\Request\Types\Configs\JsonInputConfig;
+use MenyongMenying\MLibrary\Kucil\Http\Request\Types\Contracts\InputInterface;
+use MenyongMenying\MLibrary\Kucil\Http\Request\Types\Helpers\JsonInputHelper;
+use MenyongMenying\MLibrary\Kucil\Http\Request\Types\Input;
 use MenyongMenying\MLibrary\Kucil\Utilities\MString\MString;
 use MenyongMenying\MLibrary\Kucil\Utilities\MObject\MObject;
 use MenyongMenying\MLibrary\Kucil\Utilities\Data\Data;
@@ -17,7 +17,7 @@ use MenyongMenying\MLibrary\Kucil\Systems\File\File;
  * @version 0.0.1
  * @date 2025-07-30
  */
-final class JsonInput extends BaseInput implements InputInterface
+final class JsonInput extends Input implements InputInterface
 {
     use JsonInputHelper;
 

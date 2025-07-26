@@ -1,6 +1,6 @@
 <?php
 
-namespace MenyongMenying\MLibrary\Kucil\Http\Request\Contracts;
+namespace MenyongMenying\MLibrary\Kucil\Http\Request\Types\Contracts;
 
 use MenyongMenying\MLibrary\Kucil\Utilities\Data\Data;
 
