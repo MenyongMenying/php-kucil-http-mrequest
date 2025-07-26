@@ -6,6 +6,7 @@ use MenyongMenying\MLibrary\Kucil\Http\Request\Contracts\RequestInterface;
 use MenyongMenying\MLibrary\Kucil\Http\Request\Types\GetInput;
 use MenyongMenying\MLibrary\Kucil\Http\Request\Types\JsonInput;
 use MenyongMenying\MLibrary\Kucil\Http\Request\Types\PostInput;
+use MenyongMenying\MLibrary\Kucil\Http\Request\Types\Uri;
 use MenyongMenying\MLibrary\Kucil\Utilities\MString\MString;
 use MenyongMenying\MLibrary\Kucil\Utilities\MObject\MObject;
 use MenyongMenying\MLibrary\Kucil\Utilities\Data\Data;
@@ -61,6 +62,12 @@ final class Request implements RequestInterface
      */
     private PostInput $postInput;
 
+    /**
+     * Objek dari class 'Uri'. 
+     * @var \MenyongMenying\MLibrary\Kucil\Http\Request\Types\Uri 
+     */
+    private Uri $uri;
+
     public function __construct(MString $string, MObject $object, Json $json, File $file)
     {
         $this->string = $string;
@@ -70,6 +77,7 @@ final class Request implements RequestInterface
         $this->jsonInput = new JsonInput($this->string, $this->object, $this->json, $this->file);
         $this->getInput = new GetInput($this->object);
         $this->postInput = new PostInput($this->object);
+        $this->uri = new Uri($this->string, $this->object);
         return;
     }
 
@@ -86,5 +94,10 @@ final class Request implements RequestInterface
     public function post() :null|Data
     {
         return $this->postInput->getDataInput();
+    }
+
+    public function uri() :null|string
+    {
+        return $this->uri->getUri();
     }
 }

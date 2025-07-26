@@ -41,4 +41,10 @@ interface RequestInterface
      * @return null|Data
      */
     public function post() :null|Data;
+
+    /**
+     * Meneruskan request URI.
+     * @return null|string Request URI.
+     */
+    public function uri() :null|string;
 }
